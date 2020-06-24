@@ -6,8 +6,7 @@ Unity Simulation is in active development. We hope you enjoy using the tutorial,
 
 ### Prerequisites
 
-- Unity version >= 2018.3.f1
-- Unity version >= 2019.3.f1 (For SRP support)
+- Unity version >= 2019.3+
 - Supported platforms: Windows10+ and 0SX
 - Linux build support required
 - [Unity Simulation](https://github.com/Unity-Technologies/Unity-Simulation-Docs)
@@ -15,7 +14,7 @@ Unity Simulation is in active development. We hope you enjoy using the tutorial,
 
 ### Relevant information
 
-Once you have cloned the repository, you should install Unity and Unity Simulation SDK pointed out in the prerequisites section. Make sure you include linux build support in your installation.
+Once you have cloned the repository, you should install Unity and Unity Simulation SDK pointed out in the prerequisites section. The Unity Simulation capture SDK will automatically install via Package manager. Make sure you include linux build support in your installation.
 
 Here are useful tips to get started with this tutorial
 
