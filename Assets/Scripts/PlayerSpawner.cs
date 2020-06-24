@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 
 // PlayerSpawner will spawn players in a spiral near the center of the
 // Roll-A-Ball playing field.

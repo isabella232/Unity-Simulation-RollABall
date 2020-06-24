@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 using UnityEngine.Diagnostics;
@@ -15,7 +15,7 @@ public class ParamReader : MonoBehaviour
         // Check whether we are in the editor or a cloud simulation run.
         // Read the local app_params.json from the Assets directory if we are in the editor.
         if (!Configuration.Instance.IsSimulationRunningInCloud()){
-            Configuration.Instance.SimulationConfig.app_param_uri = "file://" + Application.dataPath + "/StreamingAssets/app_params.json";
+            Configuration.Instance.SimulationConfig.app_param_uri = Application.streamingAssetsPath + "/app_params.json";
         }
 
         // Retrieve the app params using the DataCapture SDK.
